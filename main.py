@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from graphlect import lecture, graphe
+from src import lecture, graphe
+#test pour github
 
-#changement dans la branche elias bouddour
 
 def main(): #fonction principale du programme
     st.title("Multi-File Interactive Chart Reader")
